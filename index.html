@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="//code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" type="text/css" />
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+  
+	<link rel="stylesheet" href="css/jquery-mobile-slide-menu.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery-mobile-slide-menu.js"></script>
+</head>
+<body>
+	<div id="side-menu">
+		<ul>
+			<li><a href="/">Main</a><span class="icon"></span></li>
+			<li><a href="/page-2/">Page 2</a><span class="icon"></span></li>
+			<li><a href="/page-3/">Page 3</a><span class="icon"></span></li>
+			<li><a href="/page-4/">Page 4</a><span class="icon"></span></li>
+		</ul>
+	</div>
+	<div data-role="page" id="about-the-band" data-title="Page Title" data-theme="b" class="pages">
+		<div data-role="header" data-theme="b">
+			<a href="#" class="showMenu" data-role="button" data-icon="grid" data-iconpos="notext">Menu</a>
+			<h1>Header</h1>
+		</div>
+		
+		<div data-role="content">
+			<p>Content Goes Here</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+	$(function(){
+		$('#side-menu').slideMenu();
+	});
+	</script>	
+</body>
+</html>
