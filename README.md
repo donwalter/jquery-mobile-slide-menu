@@ -31,7 +31,7 @@ $(function(){
 
 Demo
 ----
-Demo in index.html
+Can also be seen at http://jsfiddle.net/gh/gist/jquery/1.9.1/5624435/ or in `index.html`
 
 License
 -------
