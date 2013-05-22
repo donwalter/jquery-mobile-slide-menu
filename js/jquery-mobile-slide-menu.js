@@ -10,7 +10,7 @@
  */
 
 (function($){
-	$.fn.slideMenu = function(options) {  
+	$.fn.slideMenu = function(options) {
 		// If options exist, merge them with the default settings
 		options = $.extend({
 			duration:	500,
