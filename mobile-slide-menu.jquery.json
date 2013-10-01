@@ -1,0 +1,36 @@
+{
+	"name": "mobile-slide-menu",
+	"title": "jQuery Mobile Slide Menu",
+	"description": "jQuery plugin to create a simple side aligned sliding menu for jQuery Mobile.",
+	"keywords": [
+		"mobile",
+		"slide",
+		"menu",
+		"navigation"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Don Walter",
+		"url": "https://github.com/donwalter"
+	},
+	"maintainers": [
+		{
+			"name": "Don Walter",
+			"email": "don@don-walter.com",
+			"url": "http://www.don-walter.com/"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/MIT"
+		}
+	],
+	"bugs": "https://github.com/donwalter/jquery-mobile-slide-menu/issues",
+	"homepage": "https://github.com/donwalter/jquery-mobile-slide-menu",
+	"docs": "https://github.com/donwalter/jquery-mobile-slide-menu",
+	"dependencies": {
+		"jquery": ">=1.8",
+		"jquery mobile": ">=1.2"
+	}
+}
